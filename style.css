@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Young Serif", serif;
+}
+
+.container {
+  padding: 50px;
+}
+
+.section-head {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.section-head__name {
+  font-size: 60px;
+}
+
+.section-head__role {
+  margin-top: 4px;
+  font-size: 35px;
+}
+
+.section-head__contact {
+  background-color: orangered;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.section-about,
+.section-myinterst,
+.section-myproject,
+.section-socialmedia {
+  margin-top: 20px;
+}
+
+.section-about__content,
+.section-myinterst__content,
+.section-myproject__content,
+.section-socialmedia__copyrights {
+  margin-top: 10px;
+}
+
+.section-myinterst__content,
+.section-myproject__content li {
+  list-style: none;
+}
+
+.section-myinterst {
+  background-color: #6462fd;
+  color: black;
+  padding: 20px;
+  display: inline-block;
+  height: 350px;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.section-myinterst__title2 {
+  margin-top: 3px;
+}
+
+.section-myproject {
+  background-color: #fe7517;
+  padding: 20px;
+  color: black;
+  display: inline-block;
+  height: 350px;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.section-socialmedia {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.section-socialmedia__title a {
+  color: skyblue;
+  text-decoration: none;
+}
+
+.section-myproject__content p {
+  display: inline-block;
+  width: 1100px;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-form__input,
+.contact-form__textarea,
+.contact-form__submit {
+  margin-top: 10px;
+}
+
+.contact-form__input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.contact-form__textarea {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.contact-form__submit {
+  padding: 10px 20px;
+  background-color: #fe7517;
+  color: white;
+  border: none;
+}
